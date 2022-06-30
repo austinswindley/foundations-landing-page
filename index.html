@@ -5,62 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page - Foundations</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 </head>
-<body>
-    <header class="site-header">
-        <h1>Header Logo</h1>
-        <nav>
-            <li><a href="#">Some Information</a></li>
-            <li><a href="#">Inspirational</a></li>
-            <li><a href="#">Let's Connect</a></li>
+<body>  
+    <div class="container">
+        <nav class="site-nav">
+            <h1>Header Logo</h1>
+            <section class=" nav-links">
+                <a href="#link-1">Some Information</a>
+                <a href="#link-2">Inspirational</a>
+                <a href="#link-3">Sign Up</a>
+            </section>
         </nav>
-    </header>
-    <section class="hero">
-        <div class="col-1">
-            <h2>This website is awesome</h2>
-            <p>This website has some subtext that goes here under the main title. It's a smalelr font and the color is lower contrast</p>
-            <p class="cta-btn">Sign Up</p>
+
+        <div class="hero">
+            <div class="hero-cta">
+                <h2>This website is awesome</h2>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <p class="cta-btn"><a href="#">Sign Up</a></p>
+            </div>
+            <img class="hero-img" src="img/fourth-image.jpg" />
         </div>
-        </div class="col-2">
-            <img src="img/fourth-image.jpg" />
+        
+        <div id="link-1" class="content">
+            <h2>Some Additional Information</h2>
+            <div class="info-boxes">
+                <div class="info-box">
+                    <img src="img/first-image.jpg" class="" />
+                    <p>this is some subtext underneath an image</p>
+                </div>
+                <div class="info-box">
+                    <img src="img/second-image.jpg" class="" />
+                    <p>this is some subtext underneath an image</p>
+                </div>
+                <div class="info-box">
+                    <img src="img/third-image.jpg" class="" />
+                    <p>this is some subtext underneath an image</p>
+                </div>
+                <div class="info-box">
+                    <img src="img/fourth-image.jpg" class="" />
+                    <p>this is some subtext underneath an image</p>
+                </div>
+            </div>
         </div>
-    </section>
-    <section class="information">
-        <h2>Some Additional Information</h2>
-        <div class="info-box">
-            <img src="img/first-image.jpg" class="" />
-            <p>this is some subtext underneath an image</p>
+        <div id="link-2" class="quote">
+            <h3>“Here I am . . . wanting to accomplish something and completely forgetting it must all end—that there is such a thing as death.”</h3>
+            <blockquote>- Leo Tolstoy</blockquote> 
         </div>
-        <div class="info-box">
-            <img src="img/second-image.jpg" class="" />
-            <p>this is some subtext underneath an image</p>
+        <div id="link-3" class="cta">
+            <div class="cta-info">
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our prouct by clicking that button right over there!</p>
+            </div>
+            <p class="btn">Sign up</p>
         </div>
-        <div class="info-box">
-            <img src="img/third-image.jpg" class="" />
-            <p>this is some subtext underneath an image</p>
+        <div class="site-footer">
+            <p>Copyright &copy The Odin Project 2022</p>
         </div>
-        <div class="info-box">
-            <img src="img/fourth-image.jpg" class="" />
-            <p>this is some subtext underneath an image</p>
-        </div>
-    </section>
-    <section class="quote">
-        <h3>
-            “Here I am . . . wanting to accomplish something and completely forgetting it must all end—that there is such a thing as death.”
-        </h3>
-        <caption>-Leo Tolstoy</caption> 
-    </section>
-    <section class="cta">
-        <div class="col1">
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for our prouct by clicking that button right over there!</p>
-        </div>
-        <div class="col2">
-            <p>Sign up</p>
-        </div>
-    </section>
-    <footer class="site-footer">
-        <p>Copyright &copy The Odin Project 2022</p>
-    </footer>
+    </div>
 </body>
 </html>
